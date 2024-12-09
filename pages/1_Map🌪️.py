@@ -15,7 +15,7 @@ st.set_page_config(layout="wide")
 st.title("Tornadoes by Year in the Carolinas 1950-2023")
 
 #Quick note on why it defaults to 2011
-st.write("**Use the sliding bar or the prev or next year buttons to change the year. Then, hover your mouse over the tornado track or point to view data on the tornado.**")
+st.write("**Use the sliding bar or the prev/next year buttons to change the year. Then, hover your mouse over the tornado track or point to view data on the tornado.**")
 
 # Load cached data
 data = load_data()
@@ -144,4 +144,4 @@ with col2:
         )
 
 
-st.write("The above map displays the tracks of tornadoes where the start and end locations are known. If no end location is known, then just the starting or reporting location is shown. The tracks and points are color coded to the magnitude of the tornado according to the Fujita (F) or Enhanced Fujita (EF) Scale. The rating of the tornadoes ranges from the weakest of F/EF0, increasing in strength through F/EF1, F/EF2, F/EF3, and F/EF4. North and South Carolina.")
+st.write("The above map displays the tracks of tornadoes where the start and end locations are known. If no end location is known, then just the starting or reporting location is shown. The tracks and points are color coded to the magnitude of the tornado according to the Fujita (F) or Enhanced Fujita (EF) Scale. The rating of the tornadoes ranges from the weakest of F/EF0, increasing in strength through F/EF1, F/EF2, F/EF3, and F/EF4. North and South Carolina have had no recorded F/EF5 tornadoes as of December 2024 when this project was made.")
