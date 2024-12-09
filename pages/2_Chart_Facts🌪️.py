@@ -5,7 +5,7 @@ import altair as alt
 # Caching the Data
 @st.cache_data
 def load_data():
-    return pd.read_csv('../tornado.csv')
+    return pd.read_csv('tornado.csv')
 
 st.set_page_config(layout="wide")
 
