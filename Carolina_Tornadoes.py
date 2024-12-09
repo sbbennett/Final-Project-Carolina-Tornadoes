@@ -20,7 +20,7 @@ with col2:
     st.image("Images/tornado_warnings.png", width=500)
 
 
-st.write("North Carolina and South Carolina are no strangers to tornadoes, with a few notable outbreaks and strong tornadoes striking the states over the last 70 or so years. Additionally, the frequency of hurricanes and tropical storms in the state also bring an increased risk of tornadoes in the summer and early fall. The Storm Predicition Center, also known as the **SPC**, is the main forecasting agency responsible for forecasting severe thunderstorm and tornado outbreaks. The necessary local National Weather Service offices will survey and rate any tornado reports that occur in their regions. These reports are logged and stored by the SPC, and this is where we have pulled our data from. **This Data Set spans 1950-2023**")
+st.write("North Carolina and South Carolina are no strangers to tornadoes, with a few notable outbreaks and strong tornadoes striking the states over the last 70 or so years. Additionally, the frequency of hurricanes and tropical storms striking the states also bring an increased risk of tornadoes in the summer and early fall. The Storm Predicition Center, also known as the **SPC**, is the main forecasting agency responsible for forecasting severe thunderstorms and tornado outbreaks. The necessary local National Weather Service offices will survey and rate any tornado reports that occur in their regions. These reports are logged and stored by the SPC, and this is where we have pulled our data from. **This Data Set spans 1950-2023**")
 
 st.header("What is the :red[goal] of this Project?")
 st.write("The primary goal of this project is to create an easy to view application to view tornado statistics and visuals for North and South Carolina.")
