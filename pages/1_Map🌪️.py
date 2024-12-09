@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 # Caching the Data
 @st.cache_data
 def load_data():
-    Tornado_Data = pd.read_csv('../tornado.csv')
+    Tornado_Data = pd.read_csv('tornado.csv')
     return Tornado_Data
 
 st.set_page_config(layout="wide")
